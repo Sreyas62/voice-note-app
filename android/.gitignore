@@ -4,7 +4,15 @@
 
 # Android/IntelliJ
 #
-build/
+app/build/generated
+app/build/intermediates
+app/build/kotlin
+app/build/kotlinToolingMetadata
+app/build/tmp
+app/build/outputs/logs
+app/build/outputs/native-debug-symbols
+app/build/outputs/sdk-dependencies
+
 .idea
 .gradle
 local.properties
