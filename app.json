@@ -8,7 +8,10 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "platforms": ["android", "web"],
+    "platforms": [
+      "android",
+      "web"
+    ],
     "android": {
       "package": "com.boltexpo.audiorecorder",
       "versionCode": 1,
@@ -39,6 +42,17 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b16dcd7b-1f20-4fce-a147-750275726e33"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "y"
     }
   }
 }

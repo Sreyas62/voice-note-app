@@ -5,6 +5,8 @@ import Animated, { FadeInUp } from 'react-native-reanimated';
 import * as FileSystem from 'expo-file-system';
 import { Audio } from 'expo-av';
 import { router } from 'expo-router';
+import 'react-native-polyfill-globals/auto';
+
 
 interface Recording {
   id: string;
